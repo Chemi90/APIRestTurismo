@@ -1,0 +1,13 @@
+###
+PUT http://localhost:8080/api/hoteles/5?token=t0k3n
+Content-Type: application/json
+Accept: application/json
+
+{
+  "nombre": "Hoteles Ejemplo Actualizado",
+  "direccion": "Calle Real, 456",
+  "estrellas": 5,
+  "telefono": "987654321",
+  "email": "info@hotelejemploactualizado.com",
+  "sitioWeb": "http://www.hotelejemploactualizado.com"
+}

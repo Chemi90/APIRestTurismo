@@ -1,0 +1,12 @@
+### Create a new hoteles
+POST http://localhost:8080/api/hoteles/?token=t0k3n
+Content-Type: application/json
+
+{
+  "nombre": "Hotelazo",
+  "direccion": "Calle Ejemplo, 123",
+  "estrellas": 5,
+  "telefono": "987654321",
+  "email": "contacto@ejemplodehotel.com",
+  "sitioWeb": "http://www.ejemplodehotel.com"
+}
